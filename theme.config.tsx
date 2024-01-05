@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { ModeToggle } from '@/components/mode-toggle'
 
 const config: DocsThemeConfig = {
   logo: <span>My Project</span>,
@@ -21,6 +22,10 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1
   },
+  navbar: {
+    extraContent: <ModeToggle />
+  },
+  darkMode: false,
   footer: {
     text: 'Nextra Docs Template'
   }
