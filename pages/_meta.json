@@ -1,14 +1,18 @@
 {
-	"index": {
-		"title": "Home",
-		"type": "page"
-	},
-	"frameworks": {
-		"title": "Frameworks",
-		"type": "page"
-	},
-	"about": {
-		"title": "About",
-		"type": "page"
-	}
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "interview": {
+    "title": "interview",
+    "type": "page"
+  },
+  "frameworks": {
+    "title": "Frameworks",
+    "type": "page"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  }
 }
